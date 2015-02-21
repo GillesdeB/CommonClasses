@@ -7,27 +7,17 @@ Common C# Classes used to speed up Windows and Windows Phone developments.
 
 Main features
 -------------
-   * Scene management (workflow)
+* List of Oceans
+* List of Countries
 
 Build Requirements
 ------------------
-
-* Mac OS X 10.7+, Xcode 5.1+
-* or Ubuntu 12.10+, CMake 2.6+
-* or Windows 7+, VS 2012+
-* Python 2.7.5
-* NDK r10c+ is required to build Android games
-* Windows Phone/Store 8.0 VS 2012+
-* Windows Phone/Store 8.1 VS 2013 Update 3+
-
+* Windows Phone/Store 8.0 VS 2013+
+* Windows Phone/Store 8.1 VS 2013 Update 4+
 
 Runtime Requirements
 --------------------
-  * iOS 5.0+ for iPhone / iPad games
-  * Android 2.3+ for Android games
   * Windows Phone 8 and 8.1 for Windows Phone games
-  * OS X v10.6+ for Mac games
-  * Windows 7+ for Win games
   * Windows 8+ for WinRT games (Modern Apps)
 
 Running Tests
@@ -79,11 +69,10 @@ Suggested classes to add:
 
 Contact us
 ----------
-
-   * Email: [][1]
-   * Forum: [][2]
-   * Twitter: [][3]
-   * IRC: [][4]
+  * Email: [][1]
+  * Forum: [][2]
+  * Twitter: [][3]
+  * IRC: [][4]
 
 [1]: https://github.com/GillesdeB/CommonClasses/
 [2]: https://github.com/GillesdeB/CommonClasses/
