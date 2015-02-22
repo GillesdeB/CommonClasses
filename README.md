@@ -74,7 +74,7 @@ Suggested classes to add:
 - Anything taken from a Json file into a list, without known schema
 
 ## Authors:
-- [Gilles de Bordeaux] (gillesdebordeaux@hotmail.com)
+- [Gilles de Bordeaux](mailto:gillesdebordeaux@hotmail.com)
 
 Contact us
 ----------
