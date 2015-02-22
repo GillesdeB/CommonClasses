@@ -1,39 +1,37 @@
 # CommonClasses
-=============
-Common C# Classes used to speed up Windows and Windows Phone developments.
+===============
+Common C# Classes can be used to speed up Windows and Windows Phone developments.
 
 1. __Install Visual Studio__ - If you haven't already, [download Visual Studio 2013 or better](http://www.visualstudio.com/en-us/visual-studio-homepage-vs.aspx).
-2. __Grab the Common Classes app__ - Download from [here](https://github.com/GillesdeB/CommonClasses/CommonClasses.zip).
+2. __Grab the Common Classes app__ - Download from [here](https://github.com/GillesdeB/CommonClasses/archive/master.zip).
 
 Main features
 -------------
-* List of Oceans
-* List of Countries
+* List of Continents
+* List of Countries (including capitals and flags)
+* Access Validic records
 
 Build Requirements
 ------------------
-* Windows Phone/Store 8.0 VS 2013+
-* Windows Phone/Store 8.1 VS 2013 Update 4+
+* Windows Phone/Store 8.0 Visual Studio 2013+
 
 Runtime Requirements
 --------------------
-  * Windows Phone 8 and 8.1 for Windows Phone games
-  * Windows 8+ for WinRT games (Modern Apps)
+  * Windows Phone 8+
+  * Windows 8+
 
-Running Tests
+Building the project
 --------------------
-
-* For Windows
-
-Open the `CommonClasses.sln`
+* Open the `CommonClasses.sln` in Visual Studio
+* Compile
+* Run
 
 Contributing to the Project
 --------------------------------
-
-Did you find a bug? Do you have feature request? Do you want to merge a feature?
-
+Did you find a bug? Do you have a feature request? Do you want to merge a feature?
   * [contributing to CommonClasses][5]
 
+================================
 ## To Do:
 Suggested classes to add:
 
