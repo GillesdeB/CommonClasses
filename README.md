@@ -1,5 +1,5 @@
-# CommonClasses
 ===============
+# CommonClasses
 Common C# Classes can be used to speed up Windows and Windows Phone developments.
 
 1. __Install Visual Studio__ - If you haven't already, [download Visual Studio 2013 or better](http://www.visualstudio.com/en-us/visual-studio-homepage-vs.aspx).
@@ -17,8 +17,8 @@ Build Requirements
 
 Runtime Requirements
 --------------------
-  * Windows Phone 8+
-  * Windows 8+
+* Windows Phone 8+
+* Windows 8+
 
 Building the project
 --------------------
@@ -29,7 +29,7 @@ Building the project
 Contributing to the Project
 --------------------------------
 Did you find a bug? Do you have a feature request? Do you want to merge a feature?
-  * [contributing to CommonClasses][5]
+* [contributing to CommonClasses][5]
 
 ================================
 ## To Do:
