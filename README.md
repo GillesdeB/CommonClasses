@@ -43,16 +43,27 @@ Suggested classes to add:
 
 ### Transportation
 - Airplanes
+- Airports
 - Cars
 - Motorcycles
 
 ### Life
-- Animals
 - Animal taxonomy
+- Plants taxonomy
 - Etnicities
+- Religions
+
+### Art
+- Singers
+- Artists
+- Movies
+- TV shows
 
 ### Banking
 - Credit cards
+- Banks
+- Money
+- Stocks
 
 ### Politics
 - Political parties
@@ -60,20 +71,22 @@ Suggested classes to add:
 - Dictators, Kings/Queens
 
 ### Other
-- Anything from Json file to list
+- Anything taken from a Json file into a list, without known schema
 
 ## Authors:
-- Gilles de Bordeaux <gillesdebordeaux@hotmail.com>
+- [Gilles de Bordeaux] [6] <gillesdebordeaux@hotmail.com>
 
 Contact us
 ----------
-  * Email: [][1]
-  * Forum: [][2]
-  * Twitter: [][3]
-  * IRC: [][4]
+* Email: [][1]
+* Forum: [][2]
+* Twitter: [][3]
+* IRC: [][4]
 
 [1]: https://github.com/GillesdeB/CommonClasses/
 [2]: https://github.com/GillesdeB/CommonClasses/
 [3]: https://github.com/GillesdeB/CommonClasses/
 [4]: https://github.com/GillesdeB/CommonClasses/
 [5]: https://github.com/GillesdeB/CommonClasses/CONTRIBUTE.md
+[6]: gillesdebordeaux@hotmail.com
+
