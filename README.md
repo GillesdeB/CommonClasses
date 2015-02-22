@@ -74,7 +74,7 @@ Suggested classes to add:
 - Anything taken from a Json file into a list, without known schema
 
 ## Authors:
-- [Gilles de Bordeaux] [6] <gillesdebordeaux@hotmail.com>
+- [Gilles de Bordeaux] (gillesdebordeaux@hotmail.com)
 
 Contact us
 ----------
@@ -88,5 +88,3 @@ Contact us
 [3]: https://github.com/GillesdeB/CommonClasses/
 [4]: https://github.com/GillesdeB/CommonClasses/
 [5]: https://github.com/GillesdeB/CommonClasses/CONTRIBUTE.md
-[6]: gillesdebordeaux@hotmail.com
-
