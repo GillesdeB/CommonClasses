@@ -28,8 +28,8 @@ Building the project
 
 Contributing to the Project
 --------------------------------
-Did you find a bug? Do you have a feature request? Do you want to merge a feature?
-* [contributing to CommonClasses][5]
+Did you find a bug? Do you have a feature request? Do you want to merge a feature? Did you improve the library?
+* please feel free to submit pull requests so that others can benefit from your work [contributing to CommonClasses][5]
 
 ================================
 ## To Do:
