@@ -46,9 +46,9 @@ namespace Common_Classes
         /// Return the list of countries
         /// </summary>
         /// <returns></returns>
-        public async Task<List<CarModel.Rootobject>> fetchCars()
+        public async Task<List<CarModel.RootObject>> fetchCars()
         {
-            List<CarModel.Rootobject> carList = null;
+            List<CarModel.RootObject> carList = null;
 
             // Try to get the list online
             carList = await fetchCarsOnline(carDataUrl);
@@ -67,9 +67,9 @@ namespace Common_Classes
         /// </summary>
         /// <param name="uri"></param>
         /// <returns></returns>
-        private async Task<List<CarModel.Rootobject>> fetchCarsOnline(string uri)
+        private async Task<List<CarModel.RootObject>> fetchCarsOnline(string uri)
         {
-            List<CarModel.Rootobject> _carList = null;
+            List<CarModel.RootObject> _carList = null;
 
             Uri _uri = new Uri(uri);
             HttpClient httpClient = new HttpClient();
@@ -99,9 +99,9 @@ namespace Common_Classes
         /// </summary>
         /// <param name="uri"></param>
         /// <returns></returns>
-        private async Task<List<CarModel.Rootobject>> fetchCarsLocally(string uri)
+        private async Task<List<CarModel.RootObject>> fetchCarsLocally(string uri)
         {
-            List<CarModel.Rootobject> _carList = null;
+            List<CarModel.RootObject> _carList = null;
             string _jsonData = string.Empty;
 
             try
@@ -132,10 +132,10 @@ namespace Common_Classes
         /// </summary>
         /// <param name="resultStr"></param>
         /// <returns></returns>
-        private async Task<List<CarModel.Rootobject>> createListFromJson(string resultStr)
+        private async Task<List<CarModel.RootObject>> createListFromJson(string resultStr)
         {
-            List<CarModel.Rootobject> resultObject = await Task.Factory.StartNew(
-                () => JsonConvert.DeserializeObject<List<CarModel.Rootobject>>(resultStr));
+            List<CarModel.RootObject> resultObject = await Task.Factory.StartNew(
+                () => JsonConvert.DeserializeObject<List<CarModel.RootObject>>(resultStr));
             return (resultObject);
         }
 

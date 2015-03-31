@@ -204,7 +204,7 @@ namespace Common_Classes
         /// 
 
         CarListDataFetcher carListFetcher;
-        List<CarModel.Rootobject> carList;
+        List<CarModel.RootObject> carList;
 
         private async void CarsButton_Tapped(object sender, TappedRoutedEventArgs e)
         {
@@ -225,36 +225,54 @@ namespace Common_Classes
             if (carList != null)
             {
                 // Bind the list to the UI
-                comboboxCars.ItemsSource = carList;
-                comboboxCars.SelectedIndex = 0;
+                comboboxCarBrands.ItemsSource = carList;
+                comboboxCarBrands.SelectedIndex = 0;
 
                 // ISSUE - DOES NOT DISPLAY THE BRAND OF THE CAR THE FIRST TIME
                 carBrand.DataContext = carList;
 
                 // Display the number of coutries
-                totalCars.Text = carList.Count.ToString();
+                totalBrands.Text = carList.Count.ToString();
             }
         }
 
-         private void comboboxCars_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void comboboxCarBrands_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if ((carList != null) && (comboboxCars.SelectedIndex > -1))
+            if ((carList != null) && (comboboxCarBrands.SelectedIndex > -1))
             {
-                // Update the image
-                //string car = carList.ElementAt(comboboxCars.SelectedIndex).value;
-                string car = "";
-                //string uri = carListFetcher.fetchCarPicture(carList.ElementAt(comboboxCars.SelectedIndex).carPictureId);
-                string uri = "";
-                //carPicture.Source = new BitmapImage(new Uri(uri));
-                carPicture.Source = null;
+                // Update the image of the car brand
+                string uri = carListFetcher.fetchCarPicture(carList.ElementAt(comboboxCarBrands.SelectedIndex).value);
+                carBrandPicture.Source = new BitmapImage(new Uri(uri));
 
-                // Show the name
-                carBrand.DataContext = countryList[comboboxCars.SelectedIndex];
+                // Show the name of the car brand
+                carBrand.DataContext = carList[comboboxCarBrands.SelectedIndex];
+
+                // Update the dropdow list containing car models
+                comboboxCarModels.ItemsSource = carList[comboboxCarBrands.SelectedIndex].models;
+                comboboxCarModels.SelectedIndex = 0;
             }
             else
             {
-                carPicture.Source = null;
+                carBrandPicture.Source = null;
                 carBrand.DataContext = null;
+            }
+        }
+
+        private void comboboxCarModels_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if ((carList != null) && (comboboxCarModels.SelectedIndex > -1))
+            {
+                // Update the image of the car model
+                string uri = carListFetcher.fetchCarPicture(carList.ElementAt(comboboxCarModels.SelectedIndex).value);
+                carModelPicture.Source = new BitmapImage(new Uri(uri));
+
+                // Show the name of the car model
+                carModel.DataContext = carList[comboboxCarBrands.SelectedIndex].models;
+            }
+            else
+            {
+                carModelPicture.Source = null;
+                carModel.DataContext = null;
             }
         }
 
@@ -263,9 +281,10 @@ namespace Common_Classes
             carBrand.DataContext = null;
 
             carList = null;
-            comboboxCars.ItemsSource = null;
+            comboboxCarBrands.ItemsSource = null;
+            comboboxCarModels.ItemsSource = null;
             carListFetcher = null;
-            totalCars.Text = string.Empty;
+            totalBrands.Text = string.Empty;
 
             await Task.Delay(10);
         }

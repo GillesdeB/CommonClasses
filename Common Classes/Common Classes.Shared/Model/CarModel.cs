@@ -15,37 +15,18 @@ namespace Common_Classes.Model
 
     public class CarModel
     {
-
-        public class Rootobject
-        {
-            public Class1[] class1 { get; set; }
-        }
-
-        /// <summary>
-        /// Car makers
-        /// </summary>
-        public class Class1
-        {
-            public string value { get; set; }
-            public string title { get; set; }
-            public Model[] models { get; set; }
-        }
-
-        /// <summary>
-        /// Car models
-        /// </summary>
         public class Model
         {
             public string value { get; set; }
             public string title { get; set; }
         }
 
-        //public class CarRootObject
-        //{
-        //    public string brand { get; set; }
-        //    public string name { get; set; }
-        //    public List<string> altSpellings { get; set; }
-        //}
+        public class RootObject
+        {
+            public string value { get; set; }
+            public string title { get; set; }
+            public List<Model> models { get; set; }
+        }
     }
 
     //public enum VehicleType { Bicycle, Motorcycle, Car, Truck, Tank, Other }
@@ -90,5 +71,4 @@ namespace Common_Classes.Model
     //    public string Surface { get; set; }
     //    public string Color { get; set; }
     //}
-
 }

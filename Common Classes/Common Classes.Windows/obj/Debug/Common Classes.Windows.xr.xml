@@ -2,7 +2,6 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="title" />
-    <RootPropertyPathName Name="value" />
     <RootPropertyPathName Name="capital" />
     <RootPropertyPathName Name="name" />
   </Roots.PropertyPathNames>

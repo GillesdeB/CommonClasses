@@ -102,11 +102,11 @@
                     <Button x:Name="CarsButton" Content="Fetch cars" Tapped="CarsButton_Tapped" />
 
                     <StackPanel Orientation="Vertical" Margin="20" >
-                        <TextBlock Text="Number of cars found:" FontSize="24" />
-                        <TextBlock Name="totalCars" FontSize="24" />
+                        <TextBlock Text="Number of brands found:" FontSize="24" />
+                        <TextBlock Name="totalBrands" FontSize="24" />
                     </StackPanel>
 
-                    <ComboBox x:Name="comboboxCars" SelectionChanged="comboboxCars_SelectionChanged">
+                    <ComboBox x:Name="comboboxCarBrands" SelectionChanged="comboboxCarBrands_SelectionChanged">
                         <ComboBox.ItemTemplate>
                             <DataTemplate>
                                 <Grid Background="White" >
@@ -114,7 +114,7 @@
                                         <RowDefinition Height="Auto" />
                                         <RowDefinition Height="Auto" />
                                     </Grid.RowDefinitions>
-                                    <TextBlock Grid.Row="0" Text="{Binding value}" Margin="5,0" Foreground="Black" />
+                                    <TextBlock Grid.Row="0" Text="{Binding title}" Margin="5,0" Foreground="Black" />
                                     <Rectangle Grid.Row="1" HorizontalAlignment="Left" Fill="Gray" Width="260" Height="0.5" />
                                 </Grid>
                             </DataTemplate>
@@ -122,12 +122,37 @@
                     </ComboBox>
 
                     <StackPanel Orientation="Vertical" Margin="20" >
-                        <TextBlock Text="Brand:" FontSize="24" />
+                        <TextBlock Text="Brands:" FontSize="24" />
                         <TextBlock x:Name="carBrand"  Text="{Binding title}" FontSize="24" />
                     </StackPanel>
 
                     <Border Background="White" Margin="50,0,0,0" >
-                        <Image x:Name="carPicture" Source="Assets/SmallLogo.scale-100.png" 
+                        <Image x:Name="carBrandPicture" Source="Assets/SmallLogo.scale-100.png" 
+                               Height="100" Margin="3" Stretch="Fill"  />
+                    </Border>
+
+                    <ComboBox x:Name="comboboxCarModels" SelectionChanged="comboboxCarModels_SelectionChanged">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Background="White" >
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="Auto" />
+                                        <RowDefinition Height="Auto" />
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Grid.Row="0" Text="{Binding title}" Margin="5,0" Foreground="Black" />
+                                    <Rectangle Grid.Row="1" HorizontalAlignment="Left" Fill="Gray" Width="260" Height="0.5" />
+                                </Grid>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+
+                    <StackPanel Orientation="Vertical" Margin="20" >
+                        <TextBlock Text="Models:" FontSize="24" />
+                        <TextBlock x:Name="carModel"  Text="{Binding title}" FontSize="24" />
+                    </StackPanel>
+
+                    <Border Background="White" Margin="50,0,0,0" >
+                        <Image x:Name="carModelPicture" Source="Assets/SmallLogo.scale-100.png" 
                                Height="100" Margin="3" Stretch="Fill"  />
                     </Border>
                 </StackPanel>
