@@ -1,0 +1,103 @@
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\App.xbf
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\MainPage.xbf
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\Common Classes.WindowsPhone.xr.xml
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\Common Classes.WindowsPhone.exe
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\Common Classes.WindowsPhone.pdb
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\resources.pri
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\Common Classes.WindowsPhone.build.appxrecipe
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\MainPage.xaml
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\MainPage.xbf
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\Common Classes.WindowsPhone.exe
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\Common Classes.WindowsPhone.pdb
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\priconfig.xml
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\layout.resfiles
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\resources.resfiles
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\pri.resfiles
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\qualifiers.txt
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Gilles\Source\Workspaces\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\App.xbf
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\MainPage.xbf
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\Common Classes.WindowsPhone.xr.xml
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\Common Classes.WindowsPhone.exe
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\Common Classes.WindowsPhone.pdb
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\resources.pri
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\Common Classes.WindowsPhone.build.appxrecipe
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\MainPage.xaml
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\MainPage.xbf
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\Common Classes.WindowsPhone.exe
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\Common Classes.WindowsPhone.pdb
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\Common Classes.WindowsPhone.csproj.GenerateResource.Cache
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\priconfig.xml
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\layout.resfiles
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\resources.resfiles
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\pri.resfiles
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\qualifiers.txt
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Gilles\Documents\Visual Studio 2013\Projects\Common Classes\Common Classes\Common Classes.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\bin\Debug\App.xbf
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\bin\Debug\MainPage.xbf
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\bin\Debug\Common Classes.WindowsPhone.xr.xml
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\bin\Debug\Common Classes.WindowsPhone.exe
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\bin\Debug\Common Classes.WindowsPhone.pdb
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\bin\Debug\resources.pri
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\bin\Debug\Common Classes.WindowsPhone.build.appxrecipe
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\MainPage.xaml
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\MainPage.xbf
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\Common Classes.WindowsPhone.exe
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\Common Classes.WindowsPhone.pdb
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\Common Classes.WindowsPhone.csproj.GenerateResource.Cache
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\priconfig.xml
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\layout.resfiles
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\resources.resfiles
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\pri.resfiles
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\qualifiers.txt
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\Common Classes.WindowsPhone.csprojResolveAssemblyReference.cache

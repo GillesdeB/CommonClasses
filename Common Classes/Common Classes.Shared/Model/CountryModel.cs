@@ -16,7 +16,9 @@ namespace Common_Classes.Model
     ///    
     /// </summary>
 
-    // RootObject
+    /// <summary>
+    /// RootObject
+    /// </summary>
     public class CountryModel
     {
         public string name { get; set; }

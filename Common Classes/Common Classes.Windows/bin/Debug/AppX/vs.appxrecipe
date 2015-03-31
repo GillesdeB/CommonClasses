@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPLENG</Machine>
+    <WindowsUser>Gilles</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e7110560-e700-4a27-a2a3-28adec9ddd49</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>76465FA98E94E207372A7FB087CD2BDEEE64FC4958454069A1207EA0BA9F5CBF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e7110560-e700-4a27-a2a3-28adec9ddd49_1.0.0.0_neutral__v6xta8fg8wd6m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e7110560-e700-4a27-a2a3-28adec9ddd49_v6xta8fg8wd6m!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e7110560-e700-4a27-a2a3-28adec9ddd49</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Gilles</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-03-30T21:26:17.526</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Windows\bin\Debug\Common Classes.Windows.exe">
+      <PackagePath>Common Classes.Windows.exe</PackagePath>
+      <Modified>2015-03-30T21:27:29.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gilles\Source\Repos\CommonClasses\packages\Newtonsoft.Json.6.0.8\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-01-24T22:39:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T17:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Shared\LocalData\countries.json">
+      <PackagePath>LocalData\countries.json</PackagePath>
+      <Modified>2015-02-22T03:44:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Shared\LocalData\carMakersAndModels.json">
+      <PackagePath>LocalData\carMakersAndModels.json</PackagePath>
+      <Modified>2015-03-29T00:02:30.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-03-30T21:26:16.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-03-30T21:26:16.961</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Windows\bin\Debug\Common Classes.Windows.xr.xml">
+      <PackagePath>Common Classes.Windows.xr.xml</PackagePath>
+      <Modified>2015-03-30T21:17:24.887</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-03-30T21:26:17.445</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

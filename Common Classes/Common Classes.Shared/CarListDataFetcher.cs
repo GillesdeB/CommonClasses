@@ -10,23 +10,19 @@ using Windows.Web.Http;
 namespace Common_Classes
 {
     /// <summary>
-    /// World countries class
-    /// 
-    /// TODO:
-    /// - Include a network access time limit - http://stackoverflow.com/questions/5750600/await-taskex-delay
-    /// 
+    /// Cars class
     /// </summary>
-    class CountryListDataFetcher
+    class CarListDataFetcher
     {
         #region Data
 
-        // Location of the list of countries as Json data
-        private string countryDataUrl = "http://restcountries.eu/rest/v1/all";
-        private string countryDataLocalUrl = @"LocalData\countries.json";
+        // Location of the list of car makers and models as Json data
+        private string carDataUrl = "http://restcars/rest/v1/all";
+        private string carDataLocalUrl = @"LocalData\carMakersAndModels.json";
 
         // Location of the country flags - use .png as .svg is not handled by Windows
-        //private string countryFlagUrl1 = "http://tinata.org/img/flags/{0}.svg";
-        private string countryFlagUrl2 = "http://flagpedia.net/data/flags/normal/{0}.png";
+        //private string carPictureUrl1 = "http://tinata.org/img/flags/{0}.svg";
+        private string carPictureUrl2 = "http://flagpedia.net/data/flags/normal/{0}.png";
 
         // Network response timeout in milliseconds
         private int _networkTimeout = 5000;
@@ -44,26 +40,26 @@ namespace Common_Classes
 
         #endregion
 
-        #region Fetch Countries
+        #region Fetch Cars
 
         /// <summary>
         /// Return the list of countries
         /// </summary>
         /// <returns></returns>
-        public async Task<List<CountryModel>> fetchCountries()
+        public async Task<List<CarModel.Rootobject>> fetchCars()
         {
-            List<CountryModel> countryList = null;
+            List<CarModel.Rootobject> carList = null;
 
             // Try to get the list online
-            countryList = await fetchCountriesOnline(countryDataUrl);
+            carList = await fetchCarsOnline(carDataUrl);
 
             // If online failed, use the local Json file
-            if (countryList == null)
+            if (carList == null)
             {
-                countryList = await fetchCountriesLocally(countryDataLocalUrl);
+                carList = await fetchCarsLocally(carDataLocalUrl);
             }
 
-            return (countryList);
+            return (carList);
         }
 
         /// <summary>
@@ -71,9 +67,9 @@ namespace Common_Classes
         /// </summary>
         /// <param name="uri"></param>
         /// <returns></returns>
-        private async Task<List<CountryModel>> fetchCountriesOnline(string uri)
+        private async Task<List<CarModel.Rootobject>> fetchCarsOnline(string uri)
         {
-            List<CountryModel> _countryList = null;
+            List<CarModel.Rootobject> _carList = null;
 
             Uri _uri = new Uri(uri);
             HttpClient httpClient = new HttpClient();
@@ -82,7 +78,7 @@ namespace Common_Classes
             {
                 // Get the list in Json format
                 string jsonReceived = await httpClient.GetStringAsync(_uri);
-                _countryList = await createListFromJson(jsonReceived);
+                _carList = await createListFromJson(jsonReceived);
             }
             catch (Exception ex)
             {
@@ -95,7 +91,7 @@ namespace Common_Classes
                 httpClient.Dispose();
             }
 
-            return (_countryList);
+            return (_carList);
         }
 
         /// <summary>
@@ -103,9 +99,9 @@ namespace Common_Classes
         /// </summary>
         /// <param name="uri"></param>
         /// <returns></returns>
-        private async Task<List<CountryModel>> fetchCountriesLocally(string uri)
+        private async Task<List<CarModel.Rootobject>> fetchCarsLocally(string uri)
         {
-            List<CountryModel> _countryList = null;
+            List<CarModel.Rootobject> _carList = null;
             string _jsonData = string.Empty;
 
             try
@@ -122,9 +118,9 @@ namespace Common_Classes
                 UserMessages.messageBox(ex.Message + " - " + ex.HResult);
             }
 
-            _countryList = await createListFromJson(_jsonData);
+            _carList = await createListFromJson(_jsonData);
 
-            return (_countryList);
+            return (_carList);
         }
 
         #endregion
@@ -136,25 +132,26 @@ namespace Common_Classes
         /// </summary>
         /// <param name="resultStr"></param>
         /// <returns></returns>
-        private async Task<List<CountryModel>> createListFromJson(string resultStr)
+        private async Task<List<CarModel.Rootobject>> createListFromJson(string resultStr)
         {
-            List<CountryModel> resultObject = await Task.Factory.StartNew(() => JsonConvert.DeserializeObject<List<CountryModel>>(resultStr));
+            List<CarModel.Rootobject> resultObject = await Task.Factory.StartNew(
+                () => JsonConvert.DeserializeObject<List<CarModel.Rootobject>>(resultStr));
             return (resultObject);
         }
 
         #endregion
 
-        #region Country flag
+        #region Car picture
 
         /// <summary>
         /// Return the URL of the country flag
         /// </summary>
         /// <param name="isoCountryCode"></param>
         /// <returns></returns>
-        public string fetchCountryFlag(string isoCountryCode)
+        public string fetchCarPicture(string carId)
         {
-            //return (string.Format(countryFlagUrl1, isoCountryCode.ToLower()));
-            return (string.Format(countryFlagUrl2, isoCountryCode.ToLower()));
+            //return (string.Format(carPictureUrl1, carId.ToLower()));
+            return (string.Format(carPictureUrl2, carId.ToLower()));
         }
 
         #endregion

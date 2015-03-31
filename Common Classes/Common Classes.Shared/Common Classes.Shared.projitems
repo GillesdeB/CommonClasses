@@ -15,15 +15,19 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)CarListDataFetcher.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ContinentListDataFetcher.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CountryListDataFetcher.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\ContinentModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\CarModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\CountryModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ValidicModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)UserMessages.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ValidicFitnnessDataFetcher.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)LocalData\countries.json" />
+    <Content Include="$(MSBuildThisFileDirectory)LocalData\carMakersAndModels.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />

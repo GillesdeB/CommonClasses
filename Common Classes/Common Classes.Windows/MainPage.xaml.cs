@@ -33,7 +33,7 @@ namespace Common_Classes
         /// <param name="sender"></param>
         /// <param name="e"></param>
         ValidicFitnnessDataFetcher fitnessListFetcher;
-        List<Fitness> fitnessList;
+        List<ValidicModel.Fitness> fitnessList;
 
         private async void ValidicButton_Tapped(object sender, TappedRoutedEventArgs e)
         {
@@ -50,7 +50,7 @@ namespace Common_Classes
 
             if (fitnessList != null)
             {
-                foreach (Fitness f in fitnessList)
+                foreach (ValidicModel.Fitness f in fitnessList)
                 {
                     total += (int)f.calories;
                 }
@@ -194,6 +194,84 @@ namespace Common_Classes
 
         #endregion
 
+        #region Cars
+
+        /// <summary>
+        /// Car makers and car models
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        /// 
+
+        CarListDataFetcher carListFetcher;
+        List<CarModel.Rootobject> carList;
+
+        private async void CarsButton_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            await LoadCars();
+        }
+
+        private async Task LoadCars()
+        {
+            // Instantiate the class
+            carListFetcher = new CarListDataFetcher();
+
+            // Set the network access timeout (milliseconds)
+            carListFetcher.networkTimeout = 3000;
+            // Get the list of Cars
+            carList = await carListFetcher.fetchCars();
+
+            // Process the list of countries found
+            if (carList != null)
+            {
+                // Bind the list to the UI
+                comboboxCars.ItemsSource = carList;
+                comboboxCars.SelectedIndex = 0;
+
+                // ISSUE - DOES NOT DISPLAY THE BRAND OF THE CAR THE FIRST TIME
+                carBrand.DataContext = carList;
+
+                // Display the number of coutries
+                totalCars.Text = carList.Count.ToString();
+            }
+        }
+
+         private void comboboxCars_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if ((carList != null) && (comboboxCars.SelectedIndex > -1))
+            {
+                // Update the image
+                //string car = carList.ElementAt(comboboxCars.SelectedIndex).value;
+                string car = "";
+                //string uri = carListFetcher.fetchCarPicture(carList.ElementAt(comboboxCars.SelectedIndex).carPictureId);
+                string uri = "";
+                //carPicture.Source = new BitmapImage(new Uri(uri));
+                carPicture.Source = null;
+
+                // Show the name
+                carBrand.DataContext = countryList[comboboxCars.SelectedIndex];
+            }
+            else
+            {
+                carPicture.Source = null;
+                carBrand.DataContext = null;
+            }
+        }
+
+        private async Task ClearCars()
+        {
+            carBrand.DataContext = null;
+
+            carList = null;
+            comboboxCars.ItemsSource = null;
+            carListFetcher = null;
+            totalCars.Text = string.Empty;
+
+            await Task.Delay(10);
+        }
+
+        #endregion
+
         #region Reset
 
         /// <summary>
@@ -206,9 +284,9 @@ namespace Common_Classes
             await ClearValidic();
             await ClearCountries();
             await ClearContinents();
+            await ClearCars();
         }
 
         #endregion
-
     }
 }

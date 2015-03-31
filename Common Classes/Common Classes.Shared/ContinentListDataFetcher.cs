@@ -5,11 +5,13 @@ using System.Threading.Tasks;
 
 namespace Common_Classes
 {
-
-    #region Continents
-
+    /// <summary>
+    /// World continents class
+    /// </summary>
     class ContinentListDataFetcher
     {
+        #region Data
+
         /// <summary>
         /// Continent standard used.
         /// </summary>
@@ -25,6 +27,10 @@ namespace Common_Classes
                 _continentStandard = value;
             }
         }
+
+        #endregion
+
+        #region Fetch Continents
 
         public async Task<List<Continent>> fetchContinentStandards()
         {
@@ -79,6 +85,10 @@ namespace Common_Classes
             return (continentList);
         }
 
+        #endregion
+
+        #region Create list from Enum
+
         /// <summary>
         /// Gets list of all enum values for the type specified as a list of strings.  
         /// </summary>
@@ -96,8 +106,8 @@ namespace Common_Classes
             return itemList;
         }
 
-    }
+        #endregion
 
-    #endregion
+    }
 
 }
