@@ -100,4 +100,3 @@ C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.Windows
 C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\ProjectArchitectures.txt
-C:\Users\Gilles\Source\Repos\CommonClasses\Common Classes\Common Classes.WindowsPhone\obj\Debug\Common Classes.WindowsPhone.csprojResolveAssemblyReference.cache

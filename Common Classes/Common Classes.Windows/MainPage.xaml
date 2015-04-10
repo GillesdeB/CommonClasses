@@ -121,12 +121,12 @@
                         </ComboBox.ItemTemplate>
                     </ComboBox>
 
-                    <StackPanel Orientation="Vertical" Margin="20" >
+                    <StackPanel Orientation="Vertical" Margin="30,20" >
                         <TextBlock Text="Brands:" FontSize="24" />
                         <TextBlock x:Name="carBrand"  Text="{Binding title}" FontSize="24" />
                     </StackPanel>
 
-                    <Border Background="White" Margin="50,0,0,0" >
+                    <Border Background="White" Margin="20,0" >
                         <Image x:Name="carBrandPicture" Source="Assets/SmallLogo.scale-100.png" 
                                Height="100" Margin="3" Stretch="Fill"  />
                     </Border>
@@ -146,12 +146,12 @@
                         </ComboBox.ItemTemplate>
                     </ComboBox>
 
-                    <StackPanel Orientation="Vertical" Margin="20" >
+                    <StackPanel Orientation="Vertical" Margin="30,20" >
                         <TextBlock Text="Models:" FontSize="24" />
                         <TextBlock x:Name="carModel"  Text="{Binding title}" FontSize="24" />
                     </StackPanel>
 
-                    <Border Background="White" Margin="50,0,0,0" >
+                    <Border Background="White" Margin="20,0,0,0" >
                         <Image x:Name="carModelPicture" Source="Assets/SmallLogo.scale-100.png" 
                                Height="100" Margin="3" Stretch="Fill"  />
                     </Border>
